@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: nginxdemos/hello
+        image: docker.io/openshift/hello-openshift
         ports:
         - containerPort: 8080
 
